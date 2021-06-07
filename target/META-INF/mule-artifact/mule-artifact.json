@@ -1,0 +1,25 @@
+{
+  "configs": [
+    "basic_auth_practise11.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:basic_auth_practise11:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0-20210427",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "basicauth.xml",
+        "basic_auth_practise11.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
